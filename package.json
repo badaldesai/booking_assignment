@@ -1,0 +1,27 @@
+{
+  "name": "booking_assignment",
+  "version": "0.1.0",
+  "description": "Room booking assignment",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badaldesai/booking_assignment.git"
+  },
+  "author": "Badal Desai <badal.desai@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badaldesai/booking_assignment/issues"
+  },
+  "homepage": "https://github.com/badaldesai/booking_assignment#readme",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
+}
