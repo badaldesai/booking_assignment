@@ -5,6 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
     "test": "npm test"
   },
   "repository": {
@@ -23,5 +25,13 @@
     "express": "^4.17.1",
     "lodash": "^4.17.21",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }
