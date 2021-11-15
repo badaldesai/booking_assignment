@@ -38,6 +38,8 @@ This endpoint needs following payload:
 }
 ```
 All the required fields. The checkIn_date and checkOut_date fields should be in format `DD/MM/YYYY`. This endpoint will create a new reservation for you. If it is success, it will response with 201 with reservation id as `id` field.
+Also, number_of_people could be maximum 3.
+checkIn_date and checkOut_date dates shouldn't be more than 3 days.
 
 You can get and delete reservation with above `id`.
 
